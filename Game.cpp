@@ -235,7 +235,6 @@ namespace ez
 
 			if (OnGround == false && sound)
 			{
-				std::cout << "d";
 				bird.SpecialAbility();
 				sound = false;
 			}
